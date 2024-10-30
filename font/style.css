@@ -1,0 +1,90 @@
+* {
+
+    /* margin: 0; */
+    padding: 0;
+
+}
+
+.contenir {
+    width: 1440px;
+    margin:  0 auto;
+    height: 134px;
+    display: grid;
+    grid-template-areas: '1 2';
+    font-size: 3rem;
+    border-bottom: 1px solid black;
+    text-align: center;
+   
+}
+
+
+.links {
+    text-align: right;
+    /* word-spacing: 20px; */
+    color: black;
+     margin-top: 45px; 
+}
+
+.links a {
+    color: black;
+}
+.picture{
+    width: 854px;
+    margin:  0 auto;
+    padding-top: 80px;
+}
+.p1 {
+    height: 533px;
+}
+
+.p2 {
+    height: 162px;
+    /* margin-top: 793px ; */
+    font-size: 54px;
+    text-align: center;
+    font-family: NEW YORK EXTRA;
+}
+.bottom_text{
+width: 400px;
+font-size: 20px;
+margin: 0 auto;
+border-bottom: 1px solid black ;
+}
+.ALL_articles{
+margin: 0 auto;
+width: 700px;
+font-size: 40px;
+text-align: center  ;
+
+}
+.content{
+display: grid;
+grid-template-areas: 
+"1 2";
+justify-content: center;
+text-align: center;
+gap: 20px;
+grid-template:repeat(6,304px)/repeat(6,176) ;
+
+}
+.font{
+
+width: 504px;
+height: 400px;
+
+
+
+}
+
+.text{
+width: 604px;
+font-size: 22px;
+
+
+}
+
+
+
+
+
+

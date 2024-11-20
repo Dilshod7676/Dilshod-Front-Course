@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Css Lesson</title>
+    <link rel="stylesheet" href="style.css">
+
+<body>
+
+    <h1 style="color: blue; color: aqua;">heading</h1>
+    <p id="testid">paragraph</p>
+    <h1 class="testclass">heading</h1>
+    <button>button</button>
+
+
+    <div>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <main>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </main>
+    </div>
+
+    <p>Lorem ipsum dolor sit amet.</p>
+    <button>button</button>
+    
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+
+
+</body>
+<style>
+
+    #testid,.testclass,button{
+        color: red;
+        background-color: green;
+    }
+
+
+    div main p{
+        color: gold;
+    }
+
+    div > p{
+        color: darkblue;
+        background-color: lightgreen;
+    }
+    div+p{
+        color: green;
+    }
+
+    div~p{
+        color: red;
+    }
+</style>
+</html>
